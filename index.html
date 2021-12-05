@@ -437,8 +437,8 @@
         </div>
       </div>
     </footer>
-    <!--Модалка is-hidden-->
-    <div class="backdrop" data-modal>
+    <!--Модалка-->
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close" data-modal-close>
           <svg class="modal-close-icon" width="11" height="11">
@@ -481,7 +481,6 @@
             placeholder="Введите текст"
             id="modal-feedback"
           ></textarea>
-          <!-- ++++++++++++++++++ЧЕКБОКС++++++++++++++++++ -->
           <div class="modal-form-terms-wrap">
             <input
               class="modal-form-checkbox visually-hidden"
@@ -495,12 +494,10 @@
                 <svg class="modal-form-checkbox-icon" width="11" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg> </span
-              >Соглашаюсь с рассылкой и принимаю<a class="modal-form-link" href="">
-                Условия договора</a
-              >
+              >Соглашаюсь с рассылкой и принимаю
+              <a class="modal-form-link" href=""> Условия договора</a>
             </label>
           </div>
-          <!-- ++++++++++++++++++ЧЕКБОКС++++++++++++++++++ -->
           <button type="submit" class="modal-form-button button primary">Отправить</button>
         </form>
       </div>
