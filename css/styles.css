@@ -785,10 +785,6 @@ h3 {
   justify-content: center;
 }
 
-.modal-form-checkbox:focus + .modal-form-checkbox-label {
-  border: 1px solid var(--brand-color);
-}
-
 .modal-form-checkbox:focus + .modal-form-checkbox-label .second-checkbox {
   border: 2px solid var(--brand-color);
 }
